@@ -14,3 +14,8 @@ public final class PreventInheritanceinclassesandmethod{
 //final fields cannot be changed after the object has been constructed
 
 //If I want to prevent others from subclassing the executive class Simply declare the class using the final modifier
+/*
+*prevent someone to form subclass from one of your classes
+*classes that cannot be executed are called final classes
+*
+*/
