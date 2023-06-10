@@ -16,14 +16,16 @@ class Main extends Object{
  }   
 }
 /*
-*Description
+*Description of the program
 Every class in Java extends Object
 However you never have to write
 means you can even write the program without extending Object class
 
 If no superclass is explicitly mentioned 
 The Ultimate superclass object is taken for granted
-
-
+i.e public class Main extends Object
+Object object=new Main("suresh","india");
+a variable of type object is only useful as a generic holder for arbitrary values.
+To do anything specific with the value, you need to have some knowledge about the original type and apply a cast
 */
                         
