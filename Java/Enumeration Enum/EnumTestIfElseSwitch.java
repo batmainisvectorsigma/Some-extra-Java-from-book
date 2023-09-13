@@ -1,3 +1,4 @@
+//program that let's you give holiday based on your day
 import java.util.Scanner;
 enum Day{
     SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY;
