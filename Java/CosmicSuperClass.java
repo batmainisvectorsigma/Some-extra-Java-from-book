@@ -27,5 +27,6 @@ i.e public class Main extends Object
 Object object=new Main("suresh","india");
 a variable of type object is only useful as a generic holder for arbitrary values.
 To do anything specific with the value, you need to have some knowledge about the original type and apply a cast
+
 */
                         
