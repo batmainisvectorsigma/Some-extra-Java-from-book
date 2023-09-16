@@ -14,3 +14,7 @@ public class CloneTest {
         }
     }
 }
+/*
+original=Employee[name= John Q. Public,salary=5000.0,hireDay=Sat Jan 01 00:00:00 PST 2000]
+copy=Employee[name= John Q. Public,salary=5500.0,hireDay=Tue Dec 31 00:00:00 PST 2002]
+*/
