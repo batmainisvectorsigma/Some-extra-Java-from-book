@@ -10,7 +10,7 @@ public class Employee implements Cloneable{
         this.salary=salary;
         hireDay=new Date();
     }
-
+   //The main theme about the whole program is in this below below
     public Employee clone() throws CloneNotSupportedException{
         Employee cloned=(Employee) super.clone();   //call Object.clone
         cloned.hireDay=(Date) hireDay.clone();  //cloned mutable fields
