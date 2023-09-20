@@ -71,3 +71,41 @@ public class Main{
 }
 
 //OUTPUT: Sita
+
+//SOME MORE EXAMPLES
+//EXAMPLE NO: 5
+//LAMBDA WITH 'Comparator': SORTING A LIST OF STRING BE LENGTH:
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        List<String> words=Arrays.asList("apple","banana","cherry","data");
+        Collections.sort(words,(first,second) -> first.length()-second.length());
+        System.out.println(words);
+    }
+}
+
+
+//EXAMPLE NO:6
+//LAMBDA WITH 'Timer': PRINTING CURRENT TIME EVERY SECOND
+import javax.swing.*;
+import java.awt.*;
+import java.util.Date;
+public class Main{
+    public static void main(String args[]){
+        Timer t=new Timer(10000,event -> {
+           System.out.println("Current time is: "+new Date());
+           Toolkit.getDefaultToolkit().beep();
+        });
+        t.start();
+        JOptionPane.showMessageDialog(null,"Check OK to exit the program");
+        System.out.println();
+
+
+        System.out.println();
+    }
+}
+
+
+//EXAMPLE NO:7
+//USING 'Predicate' to filter a List
+
