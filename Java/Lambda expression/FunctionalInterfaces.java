@@ -83,6 +83,7 @@ public class Main{
         System.out.println(words);
     }
 }
+// Output: [date, apple, cherry, banana]
 
 
 //EXAMPLE NO:6
@@ -108,4 +109,29 @@ public class Main{
 
 //EXAMPLE NO:7
 //USING 'Predicate' to filter a List
+import java.util.*;
+import java.util.function.Predicate;
 
+public class Main{
+    public static void main(String[] args) {
+        List<String> words = new ArrayList<>(Arrays.asList("apple", null, "banana", "cherry", null));
+        
+        Predicate<String> nonNullPredicate = e -> e != null;
+        words.removeIf(nonNullPredicate.negate()); // Removing all null values
+        
+        System.out.println(words); // Output: [apple, banana, cherry]
+    }
+}
+
+
+//EXAMPLE NO:8
+//USING BiFunction to concatenate two Strings
+import java.util.function.BiFunction;
+public class Main{
+    public static void main(String args[]){
+        BiFunction<String,String,String> concatFunction=(first,second) -> first+second;
+        String result=concatFunction.apply("Hello,","World!");
+        System.out.println(result);
+    }
+}
+//output: Hello,World!
