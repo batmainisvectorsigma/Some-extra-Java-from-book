@@ -15,3 +15,14 @@ public class Main{
 	}
 }
 
+/*
+Using Lambda
+Alice
+Bob
+Charlie
+
+ Using method Reference:
+Alice
+Bob
+Charlie
+*/
