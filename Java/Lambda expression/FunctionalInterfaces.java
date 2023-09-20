@@ -18,7 +18,7 @@ public class Main implements Greeting{
 //  EXAMPLE NO: 2
 //before we used to use functional interfaces, we would often use anonymnous class
 public class Main {
-    
+    @FunctionalInterface
     interface Greeting {
         void sayHello(String name);
     }
@@ -40,7 +40,7 @@ public class Main {
 //    HERE WE ARE USING THE LAMBDA EXPRESSION ON SOLVING THE PROGRAM WITHOUT MAKING THE FUNCTION STATTIC
 
 public class Main {
-    
+    @FunctionalInterface
     interface Greeting {
         void sayHello(String name);
     }
@@ -60,6 +60,7 @@ public class Main {
 
 
 public class Main{
+    @FunctionalInterface
     interface Greeting{
         void sayHello(String name);
     }
